@@ -1,0 +1,44 @@
+body,
+html {
+	width: 100%;
+	height: 100%;
+	color: rgba(44, 5, 73, 1);
+	background-color: rgba(200, 182, 214, 0.1);
+	font-family: 'Fira Sans Condensed', sans-serif;
+}
+
+.main-container {
+	width: 100%;
+}
+
+.title-container {
+	padding: 24px 0;
+	text-align: center;
+	font-size: 42px;
+}
+
+.image-container {
+	width: inherit;
+	margin-bottom: 24px;
+	text-align: center;
+}
+
+.main-image {
+	max-width: 100%;
+	height: auto;
+}
+
+.link-container {
+	text-align: center;
+}
+
+.link {
+	display: inline-block;
+	font-size: 24px;
+}
+
+.link-text a {
+	border: none;
+	color: rgba(44, 5, 73, 1);;
+	text-decoration: none;
+}
