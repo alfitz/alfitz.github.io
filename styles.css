@@ -11,6 +11,21 @@ html {
 	width: 100%;
 }
 
+.header {
+	width: 100;
+}
+
+/*
+.title-container2 {
+	width: 80%;
+	height: 800px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background: url('shore.jpg') no-repeat center;
+}
+*/
+
 .title-container {
 	padding: 24px 0;
 	text-align: center;
@@ -25,7 +40,7 @@ html {
 
 .main-image {
 	max-width: 100%;
-	height: auto;
+	height: 600px;
 }
 
 .link-container {
