@@ -1,59 +1,90 @@
-body,
 html {
-  width: 100%;
   height: 100%;
   color: rgba(44, 5, 73, 1);
   background-color: rgba(200, 182, 214, 0.1);
   font-family: 'Fira Sans Condensed', sans-serif;
 }
 
+body {
+ height: 100%;
+}
+
 .main-container {
   width: 100%;
+  height: 100%;
 }
 
-.header {
-  width: 100;
+.main-header {
+  width: 100%;
+  background-color: white;
+  box-shadow: 0 3px 3px -3px rgba(44, 5, 73, 1);
 }
-
-/*
-.title-container2 {
-  width: 80%;
-  height: 800px;
-  position: fixed;
-  top: 0;
-  left: 0;
-  background: url('shore.jpg') no-repeat center;
-}
-*/
 
 .title-container {
+  display: inline-block;
   padding: 24px 0;
-  text-align: center;
   font-size: 42px;
 }
 
-.image-container {
-  width: inherit;
-  margin-bottom: 24px;
+.link-container {
+  margin: 16px 0;
+}
+
+.nav-link {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0 24px;
+  cursor: pointer;
+}
+
+.body-container {
+  flex: 1 0 auto;
+  max-width: 60%;
+  font-size: 24px;
   text-align: center;
+}
+
+.vertical-flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.horizontal-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.about-me {
+  max-width: 600px;
+}
+
+.hidden {
+  display: none;
+}
+
+.inline-container {
+  display: inline-block;
 }
 
 .main-image {
-  max-width: 100%;
-  height: 600px;
+  width: 100%;
+  max-width: 800px;
 }
 
-.link-container {
-  text-align: center;
+.footer {
+  width: 100%;
+  background-color: rgba(200, 182, 214, 0.7);
 }
 
-.link {
-  display: inline-block;
-  font-size: 24px;
+.footer-link-container {
+  padding: 12px 0;
 }
 
-.link-text a {
-  border: none;
-  color: rgba(44, 5, 73, 1);;
-  text-decoration: none;
+.footer-link {
+  font-size: 18px;
+  color: black;
 }

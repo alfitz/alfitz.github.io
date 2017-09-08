@@ -4,20 +4,39 @@
   <link rel="stylesheet" type="text/css" href="meyerreset.css">
   <link rel="stylesheet" type="text/css" href="styles.css">
   <link href="https://fonts.googleapis.com/css?family=Fira+Sans+Condensed" rel="stylesheet">
+  <script src="main.js" type="text/javascript"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
   <title>Allison Fitzgerald</title>
 </head>
 <body>
-  <div class="main-container">
-    <div class="title-container">Allison Fitzgerald</div>
-    <div class="image-container">
-      <img src="shore.jpg" class="main-image">
+  <div class="main-container vertical-flex">
+    <div class="main-header">
+      <div class="link-container horizontal-flex">
+        <div class="nav-link js-about-me--link">about me</div>
+        <!--
+        <div class="nav-link">work</div>
+        <div class="nav-link">links & contact</div>
+        -->
+      </div>
     </div>
-    <div class="link-container">
-      <div class="link">
-        <span class="link-text">
-          <a href="mailto:allisonfitz@gmail.com">email</a>
-        </span>
+    <div class="body-container vertical-flex">
+      <div>
+        <img src="shore.jpg" class="main-image js-splash">
+      </div>
+      <div class="about-me js-about-me hidden">
+        <div>
+          Hello, I'm Allison.
+        </div>
+        <div>
+          I currently reside in the greater New York City area, and I have previously lived in San Francisco and Boston.
+          I have worked as a Software Engineer for several years, with most of my work focusing on frontend web development.
+        </div>
+      </div>
+    </div>
+    <div class="footer horizontal-flex">
+      <div class="title-container">Allison Fitzgerald</div>
+      <div class="footer-link-container">
+        <a href="mailto:allisonfitz@gmail.com" class="footer-link">allisonfitz@gmail.com</a>
       </div>
     </div>
   </div>
