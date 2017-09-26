@@ -27,14 +27,21 @@ body {
 }
 
 .link-container {
-  margin: 16px 0;
+  width: 45%;
+  margin: 16px auto;
 }
 
 .nav-link {
+  flex: 1;
   font-size: 24px;
   font-weight: bold;
+  text-align: center;
   margin: 0 24px;
   cursor: pointer;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
 }
 
 .body-container {
@@ -54,7 +61,7 @@ body {
 .horizontal-flex {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-evenly;
   flex-wrap: wrap;
 }
 
@@ -87,4 +94,10 @@ body {
 .footer-link {
   font-size: 18px;
   color: black;
+}
+
+.plain-link {
+  border: none;
+  color: rgba(44, 5, 73, 1);
+  text-decoration: none;
 }
