@@ -1,8 +1,8 @@
 html {
   height: 100%;
-  color: rgba(44, 5, 73, 1);
-  background-color: rgba(200, 182, 214, 0.1);
-  font-family: 'Fira Sans Condensed', sans-serif;
+  color: rgba(0, 0, 0, 1);
+  background-color: rgba(239, 244, 252, 0.1);
+  font-family: 'Bree Serif', serif;
 }
 
 body {
@@ -14,59 +14,32 @@ body {
   height: 100%;
 }
 
-.main-header {
-  width: 100%;
-  background-color: white;
-  box-shadow: 0 3px 3px -3px rgba(44, 5, 73, 1);
-}
-
-.title-container {
-  display: inline-block;
-  padding: 24px 0;
-  font-size: 42px;
-}
-
-.link-container {
-  width: 45%;
-  margin: 16px auto;
-}
-
-.nav-link {
-  flex: 1;
-  font-size: 24px;
-  font-weight: bold;
-  text-align: center;
-  margin: 0 24px;
-  cursor: pointer;
-}
-
-.nav-link:hover {
-  text-decoration: underline;
-}
-
 .body-container {
-  flex: 1 0 auto;
-  max-width: 60%;
-  font-size: 24px;
-  text-align: center;
+  margin-left: 36px;
+  margin-top: 36px;
+  max-width: 80%;
 }
 
-.vertical-flex {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+.header-text {
+  margin-bottom: 16px;
+  font-size: 36px;
 }
 
-.horizontal-flex {
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
+.body-text {
+  font-size: 20px;
 }
 
-.about-me {
-  max-width: 600px;
+.emoji-text {
+  margin-right: 6px;
+  font-size: 30px;
+}
+
+.fact-box {
+  margin-bottom: 16px;
+}
+
+.fact-text {
+  display: inline-block;
 }
 
 .hidden {
@@ -75,29 +48,4 @@ body {
 
 .inline-container {
   display: inline-block;
-}
-
-.main-image {
-  width: 100%;
-  max-width: 800px;
-}
-
-.footer {
-  width: 100%;
-  background-color: rgba(200, 182, 214, 0.7);
-}
-
-.footer-link-container {
-  padding: 12px 0;
-}
-
-.footer-link {
-  font-size: 18px;
-  color: black;
-}
-
-.plain-link {
-  border: none;
-  color: rgba(44, 5, 73, 1);
-  text-decoration: none;
 }
