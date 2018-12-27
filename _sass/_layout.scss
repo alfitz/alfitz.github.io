@@ -27,13 +27,14 @@
 .site-nav {
   float: right;
   line-height: $nav-height;
-  .page-link{
+
+  .page-link {
     line-height: $base-line-height;
         // Gaps between nav items, but not on the first one
         &:not(:first-child) {
           margin-left: 10px;
         }
-      }
+    }
       @include media-query($on-palm) {
         position: fixed;
         top: 0px;
@@ -47,6 +48,14 @@
           display: line;
         }
       }
+    }
+
+    .active-page-link {
+      text-decoration: underline;
+      font-weight: bold;
+
+      line-height: $base-line-height;
+      margin-left: 10px;
     }
 
     .header-bar {
@@ -88,6 +97,11 @@
 .site-footer p {
     margin-bottom: 0; // Remove margin set in _sass/_base.scss for vertical rythm
   }
+
+.site-footer span {
+  margin-bottom: 0;
+  margin: 0 16px 0 16px;
+}
 
 /**
  * Pagination   **********************************************************

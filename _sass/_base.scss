@@ -27,10 +27,10 @@ $orange: #F29105;
 $blue: #2698BA;
 $green: #11D68B;
 $lime_green: #B7D12A;
-$purple: #B509AC;
+$purple: #390e5b;
 
 
-$grey-color-dark: #333;   /* footer */
+$grey-color-dark: #3d3b3f;   /* footer */
 $grey-color-light: #ddd;  /* navigation bar border */
 $text-color: #0a0a0a;
 
@@ -185,8 +185,8 @@ pre {
  */ 
 
 .wrapper {
-    max-width: -webkit-calc(800px - (#{$horizontal-spacing-unit} * 2));
-    max-width:         calc(800px - (#{$horizontal-spacing-unit} * 2));
+    max-width: -webkit-calc(1000px - (#{$horizontal-spacing-unit} * 2));
+    max-width:         calc(1000px - (#{$horizontal-spacing-unit} * 2));
     margin-right: auto;
     margin-left: auto;
     padding-right: $horizontal-spacing-unit;
@@ -194,8 +194,8 @@ pre {
     @extend %clearfix;
 
     @include media-query($on-laptop) {
-        max-width: -webkit-calc(800px - (#{$horizontal-spacing-unit}));
-        max-width:         calc(800px - (#{$horizontal-spacing-unit}));
+        max-width: -webkit-calc(1000px - (#{$horizontal-spacing-unit}));
+        max-width:         calc(1000px - (#{$horizontal-spacing-unit}));
         padding-right: $spacing-unit / 2;
         padding-left: $spacing-unit / 2;
     }

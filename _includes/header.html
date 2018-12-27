@@ -2,15 +2,23 @@
   <div class="wrapper">
     <nav class="site-nav">
       <div class="trigger">
-        <a class="page-link" href="/">home</a>
+        {% if page.label == "home" %}
+          <a class="active-page-link" href="/">home</a>
+        {% else %}
+          <a class="page-link" href="/">home</a>
+        {% endif %}
         <a class="page-link" href="/about">about</a>
-        <a class="page-link" href="/blog">blog</a>
+        {% if page.label == "blog" %}
+          <a class="active-page-link" href="/blog">blog</a>
+        {% else %}
+          <a class="page-link" href="/blog">blog</a>
+        {% endif %}
         <a class="page-link" href="/contact">contact</a>
-        {% for page in site.pages %}
+        <!--{% for page in site.pages %}
           {% if page.title %}
           <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
           {% endif %}
-        {% endfor %}
+        {% endfor %}-->
       </div>
     </nav>
   </div>
