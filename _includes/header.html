@@ -7,13 +7,16 @@
         {% else %}
           <a class="page-link" href="/">home</a>
         {% endif %}
-        <a class="page-link" href="/about">about</a>
         {% if page.label == "blog" %}
           <a class="active-page-link" href="/blog">blog</a>
         {% else %}
           <a class="page-link" href="/blog">blog</a>
         {% endif %}
-        <a class="page-link" href="/contact">contact</a>
+        {% if page.label == "about" %}
+          <a class="active-page-link" href="/about">about</a>
+        {% else %}
+          <a class="page-link" href="/about">about</a>
+        {% endif %}
         <!--{% for page in site.pages %}
           {% if page.title %}
           <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
