@@ -1,0 +1,53 @@
+.example-chart {
+  border: 1px solid #2e7c50;
+  padding: 20px;
+}
+
+.line {
+    fill: none;
+    stroke: #101a66;
+    stroke-width: 3;
+}
+  
+.overlay {
+  fill: none;
+  pointer-events: all;
+}
+
+.dot {
+    fill: #991850;
+    stroke: #fff;
+}
+  
+.focus circle {
+  fill: none;
+  stroke: steelblue;
+}
+
+.label {
+  color: pink!important;
+  font-size: 16px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.value {
+  padding: 6px;
+  border-radius: 3px;
+  background-color: #0f0c3d;
+  color: white;
+}
+
+.axis {
+  color: #0f0c3d;
+}
+
+.area {
+  fill: #97f4bc;
+}
+
+.title {
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+}
