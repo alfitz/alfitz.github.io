@@ -2,7 +2,8 @@
 layout: post
 title: "Where Everybody Knows Your Name"
 date: 2019-01-20
-description: Exploring the relationship between name popularity and pop culture phenomena
+description: What is the impact of pop culture phenomena on name popularity?
+status: live
 ---
 I recently added a golden retriever puppy to my modest collection of pets. Living in a dog-friendly city in a pets-OK building, the two of us have been meeting lots of canines on our frequent trips outside. We saw a Great Dane named Kingsley who seems almost as tall as me. We met one Frenchie named Pierre and another named Rigatoni. My dog, Remy, seems particularly excited when he runs into a goldendoodle named Phoebe who lives in our building. Maybe he senses their slight genetic connection.
 
@@ -59,9 +60,9 @@ From what we've seen with Chandler for males and females, I will add my second c
 
 ### I Know Her
 
-After *Friends*, I decided to move beyond TV. What happens when an individual person suddenly jumps into the public sphere, such as a new musician enjoying the success of their first album?
+After *Friends*, I decided to move beyond TV. What happens to the naming statistics when a famous person suddenly jumps into the public sphere, such as a new musical artist who releases a hit first album?
 
-With my head still in the 90s, I chose to look at Mariah Carey. The first CD my sisters and I ever had was her record *Daydream*, and we spent hours rollerblading in the basement while listening to *Fantasy*.
+Mariah Carey has been everything for almost two decades. While the rest of us slobs have succumbed to the throes of aging, Mariah still looks so flawless that it would be unsurprising to find out there is a portrait hiding in the back of that unforgettable *Cribs* closet.
 
 The origin of the name Mariah surprised me. [The name seems to come from an anglicization of Maria](https://en.wikipedia.org/wiki/Mariah_(given_name)). Given that information, I would expect that the name was seldom given before the apparently-ageless superstar Mariah Carey burst onto the airwaves.
 
