@@ -3,7 +3,7 @@ layout: post
 title: "Where Everybody Knows Your Name"
 date: 2019-01-20
 description: What is the impact of pop culture phenomena on name popularity?
-status: live
+status: inprogress 
 ---
 I recently added a golden retriever puppy to my modest collection of pets. Living in a dog-friendly city in a pets-OK building, the two of us have been meeting lots of canines on our frequent trips outside. We saw a Great Dane named Kingsley who seems almost as tall as me. We met one Frenchie named Pierre and another named Rigatoni. My dog, Remy, seems particularly excited when he runs into a goldendoodle named Phoebe who lives in our building. Maybe he senses their slight genetic connection.
 
